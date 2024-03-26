@@ -5,12 +5,14 @@ Launching an instance in OpenStack GUI is a straightforward process that allows 
 ## Step 1: Navigate to the Instance Tab
 
 1. Go to the **Instance** tab in the Horizon dashboard.
+![Instance page](img/Instance page.png)
 
 ## Step 2: Instance Details
 
 1. Click on the **Launch Instance** button.
 2. Provide a name for your instance.
 3. Optionally, add a description for your instance.
+![Launch Instance](img/Launch Instance.png)
 
 ## Step 3: Source
 
