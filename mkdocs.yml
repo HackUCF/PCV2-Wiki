@@ -2,10 +2,43 @@ site_name: HackUCF Private Cloud Docs
 
 theme:
   name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  features:
+   - navigation.indexes
+   - navigation.tracking
+   - navigation.sections
+   - navigation.expand
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 nav:
   - Home: index.md
-  - "User Guides": guides/index.md
+  - "User Guides":
+    - "How to Launch an Instance": "guides/How to Launch an Instance.md"
+    - "Overview of OpenStack": "guides/Overview of OpenStack GUI.md"
+    - "OpenStack Setup Guide": "guides/OpenStack Stepup Guide.md"
 
-extra_css:
-  - stylesheets/extra.css
+#extra_css:
+#  - stylesheets/extra.css
