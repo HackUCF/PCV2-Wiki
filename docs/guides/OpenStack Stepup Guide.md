@@ -6,14 +6,7 @@
 2. Click on "My Membership" and login with your Discord credentials.
 3. Download the OpenVPN profile provided and save it for later use.
 
-## Step 2: Reset Infrastructure Account
-
-1. Visit [join.hackucf.org](https://join.hackucf.org).
-2. Click on "My Membership" and login with your Discord credentials.
-3. Click on "Reset Infra Account" (Note: This will reset all your data saved in OpenStack).
-![alt text](<../img/Download Openvpn.png>)
-
-## Step 3: Install OpenVPN Client
+## Step 2: Install OpenVPN Client
 
 1. Go to [https://openvpn.net/client/](https://openvpn.net/client/).
 2. Download the appropriate version of OpenVPN for your operating system and install it.
@@ -36,7 +29,7 @@
    
    - If you don't already have the new Windows Terminal, download it from [https://aka.ms/terminal](https://aka.ms/terminal).
 
-## Step 4: Create SSH Key
+## Step 3: Create SSH Key
 
 1. Open a terminal.
 2. Run `ssh-keygen`.
@@ -45,7 +38,17 @@
 5. Press Enter again to confirm.
 ![alt text](<../img/ssh KeyGen.png>)
 
-## Step 5: Horizon.hackucf.org Configuration
+## Step 4: Login With Keycloak
+0. Navigate to https://horizon.hackucf.cloud
+1. Select login with Hack@UCF SSO
+![alt text](<../img/Login With SSO.png>)
+2. (These other steps are just for the first time)
+3. Login with credentials emailed or dm by Hack@UCF bot
+4. Agree to TOS
+5. Change Password
+6. Confirm Email
+
+## Step 5: Horizon.hackucf.cloud Configuration
 
 1. In OpenStack, navigate to "Compute" -> "Key Pairs".
 2. Click "Import Key Pair".
