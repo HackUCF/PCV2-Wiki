@@ -40,6 +40,7 @@ nav:
     - "Overview of OpenStack": "guides/Overview of OpenStack GUI.md"
     - "OpenStack Setup Guide": "guides/OpenStack Stepup Guide.md"
     - "Migration Guide": "guides/Migrate Instance.md"
+    - "Security Groups Guide": "guides/Security Groups.md"
 
 #extra_css:
 #  - stylesheets/extra.css
