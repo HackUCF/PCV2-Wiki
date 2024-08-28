@@ -1,4 +1,7 @@
 site_name: HackUCF Private Cloud Docs
+repo_url: https://github.com/HackUCF/PCV2-Wiki
+repo_name: HackUCF/PCV2-Wiki
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -9,6 +12,8 @@ theme:
    - navigation.tracking
    - navigation.sections
    - navigation.expand
+   - content.action.edit
+   - content.action.view
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -32,7 +37,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
 nav:
   - Home: index.md
   - "User Guides":
