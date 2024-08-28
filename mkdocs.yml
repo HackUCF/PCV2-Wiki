@@ -1,5 +1,5 @@
 site_name: HackUCF Private Cloud Docs
-
+copyright: CC-BY - Copyright &copy; 2024 Collegiate Cyber Defense Club
 theme:
   name: material
   logo: assets/logo.svg
