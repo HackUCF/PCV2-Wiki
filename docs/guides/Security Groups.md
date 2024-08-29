@@ -22,18 +22,18 @@ Depending on your security and accessibility needs you'll need to tailor your se
 
 # Example- Allowing SSH via Security Groups
  
- ## 1. Once you have logined into your openstack portal navigate to the Networks tab and click Security Groups located in the column on the left hand side of the screen
- ![alt text](../img/Security-Groups/Networks-Tab.png)
+## 1. Once you have logined into your openstack portal navigate to the Networks tab and click Security Groups located in the column on the left hand side of the screen
+![alt text](../img/Security-Groups/Networks-Tab.png)
 
- ## 2. Click on Create Security Group
+## 2. Click on Create Security Group
 
- ![alt text](../img/Security-Groups/Create-Security-Group.png)
+![alt text](../img/Security-Groups/Create-Security-Group.png)
 
- ## 3. Name your new Secuirty Group something like "Allow SSH" or something similar to make it easier to remember in the future. You can also add a description for further clarification. When you're finished naming click Create Security Group.
+## 3. Name your new Secuirty Group something like "Allow SSH" or something similar to make it easier to remember in the future. You can also add a description for further clarification. When you're finished naming click Create Security Group.
  
 ![alt text](../img/Security-Groups/Naming-Sec-Group.png)
 
- ## 4. You'll then be taken to the rule management papge. Here you can add the specific rules you want for traffic on your instance. Here's a break down of the terms you'll see:
+## 4. You'll then be taken to the rule management papge. Here you can add the specific rules you want for traffic on your instance. Here's a break down of the terms you'll see:
  
 ![alt text](../img/Security-Groups/Rules-Explained.png)
 
@@ -61,24 +61,15 @@ Depending on your security and accessibility needs you'll need to tailor your se
 
 ## 6. Update the following drop down boxes to all SSH and click add to create the new rule
 
- ![alt text](../img/Security-Groups/Modifiying-Rule.png)
+![alt text](../img/Security-Groups/Modifiying-Rule.png)
 
 ## 7. (Optional) If you'd like to be able to ping your instance to check if it's working for inbound ssh traffic you can add another rule to allow ICMP (Internet Control Message Protocol)
 
- ![alt text](../img/Security-Groups/Adding-ICMP.png)
+![alt text](../img/Security-Groups/Adding-ICMP.png)
+
 
 
 # Summary
 ## Now you should be all set to create and add your own Security Groups to your instances. Good luck on your Infra journey!
 
-<div style="text-align: center;"> 
-
-![alt text](../img/Security-Groups/Hack.png)
-
-</div>
-
-
-
-
-
-
+[//]: # (![alt text](../img/Security-Groups/Hack.png#center))
