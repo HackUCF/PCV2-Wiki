@@ -1,24 +1,24 @@
 # Securtiy Groups Guide
-```
+
 This guide provides a step by step walkthrough of how to get started utilizing security groups in OpenStacks
-```
+
 
 # What are Security Groups
-```
+
 Security Groups are what allows you to determine what inbound and outbound traffic is allowed into your instances (virtual machines).
 In simple terms they act like a virtual firewall that operates at the instance level, controlling access based on IP addressess, port numbers, and protocols.
-```
+
 
 # OpenStacks Default Security Group Settings
-```
+
 When creating an instance on OpenStack if you don't implement your own security group it will use its default.
 The default rules set the following standard:
-    
+    ```
     Inbound Traffic: Blocked by default
     Outbound Traffic: Allowed by default
-
+    ```
 Depending on your security and accessibility needs you'll need to tailor your secuity groups accordingly.
-```
+
 
 # Example- Allowing SSH via Security Groups
  
