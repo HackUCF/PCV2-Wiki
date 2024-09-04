@@ -10,12 +10,12 @@ theme:
   logo: assets/logo.svg
   favicon: assets/favicon.svg
   features:
-   - navigation.indexes
-   - navigation.tracking
-   - navigation.sections
-   - navigation.expand
-   - content.action.edit
-   - content.action.view
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - content.action.edit
+    - content.action.view
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -28,7 +28,7 @@ theme:
       primary: black
       accent: amber
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -42,11 +42,10 @@ theme:
 nav:
   - Home: index.md
   - "User Guides":
-    - "How to Launch an Instance": "guides/How to Launch an Instance.md"
-    - "Overview of OpenStack": "guides/Overview of OpenStack GUI.md"
-    - "OpenStack Setup Guide": "guides/OpenStack Stepup Guide.md"
-    - "Migration Guide": "guides/Migrate Instance.md"
-    - "Security Groups Guide": "guides/Security Groups.md"
-
+      - "How to Launch an Instance": "guides/How to Launch an Instance.md"
+      - "Overview of OpenStack": "guides/Overview of OpenStack GUI.md"
+      - "OpenStack Setup Guide": "guides/OpenStack Setup Guide.md"
+      - "Migration Guide": "guides/Migrate Instance.md"
+      - "Security Groups Guide": "guides/Security Groups.md"
 #extra_css:
 #  - stylesheets/extra.css

@@ -4,7 +4,7 @@ Launching an instance in OpenStack GUI is a straightforward process that allows 
 
 ## Prerequisites
 
-- [Setup Guide](./Openstack Step by Step Guide.md)
+- [Setup Guide](./Openstack Setup Guide.md)
 - [Security Groups](./Security Groups.md)
 
 ## Step 1: Navigate to the Instance Tab
