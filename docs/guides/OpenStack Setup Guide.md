@@ -39,7 +39,7 @@
 ![alt text](<../img/ssh KeyGen.png>)
 
 ## Step 4: Login With Keycloak
-0. Navigate to https://horizon.hackucf.cloud
+0. Navigate to [https://horizon.hackucf.cloud](https://horizon.hackucf.cloud)
 1. Select login with Hack@UCF SSO
 ![alt text](<../img/Login With SSO.png>)
 2. (These other steps are just for the first time)
@@ -56,3 +56,6 @@
 4. Set "Key Type" to "SSH Key".
 5. Paste the contents of your id_rsa.pub file here, or use "Load Public Key from a file" to upload it.
 ![alt text](<../img/Key pairs Page.png>)
+
+# Next Steps
+- Go to [Security Groups]{./Security Groups.md}
