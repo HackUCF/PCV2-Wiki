@@ -58,3 +58,8 @@ Depending on your security and accessibility needs you'll need to tailor your se
 Now you should be all set to create and add your own Security Groups to your instances. Good luck on your Infra journey!
 
 [//]: # (![alt text](../img/Security-Groups/Hack.png#center))
+
+
+# Next Steps 
+
+- Go to [How to Launch an Instance](./How to Launch an Instance.md)
