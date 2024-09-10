@@ -49,3 +49,7 @@ Used for redundant, scalable data storage using clusters of standardized servers
 - **Projects**: Lists available projects.
 - **Users**: Lists all users in the project.
 - **Application Credentials**: Temporary credentials allowing applications to authenticate to OpenStack.
+
+# Next Steps
+
+- Go to [OpenStack Setup Guide](./OpenStack Setup Guide.md)
