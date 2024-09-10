@@ -42,10 +42,10 @@ theme:
 nav:
   - Home: index.md
   - "User Guides":
-      - "How to Launch an Instance": "guides/How to Launch an Instance.md"
       - "Overview of OpenStack": "guides/Overview of OpenStack GUI.md"
       - "OpenStack Setup Guide": "guides/OpenStack Setup Guide.md"
-      - "Migration Guide": "guides/Migrate Instance.md"
       - "Security Groups Guide": "guides/Security Groups.md"
+      - "How to Launch an Instance": "guides/How to Launch an Instance.md"
+      - "Migration Guide": "guides/Migrate Instance.md"
 #extra_css:
 #  - stylesheets/extra.css
