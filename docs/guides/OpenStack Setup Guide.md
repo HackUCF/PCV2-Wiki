@@ -19,7 +19,7 @@
    - On the bottom right of your screen, open the overflow icon menu.
    - Right-click on the OpenVPN icon and select "Import Profile".
    ![alt text](<../img/Import profile.png>)
-   - Click on the "FILE" tab.
+   - Click on the "UPLOAD FILE" tab.
    - Press "Browse" and navigate to where you downloaded the HackUCF OpenVPN profile.
    - Select the profile and press "Open".
    - Press "Connect".
@@ -51,7 +51,7 @@
 ## Step 5: Horizon.hackucf.cloud Configuration
 
 1. In OpenStack, navigate to "Compute" -> "Key Pairs".
-2. Click "Import Key Pair".
+2. Click "Import Public Key".
 3. Name it something reasonable.
 4. Set "Key Type" to "SSH Key".
 5. Paste the contents of your id_rsa.pub file here, or use "Load Public Key from a file" to upload it.
