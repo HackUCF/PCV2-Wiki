@@ -29,6 +29,37 @@
    
    - If you don't already have the new Windows Terminal, download it from [https://aka.ms/terminal](https://aka.ms/terminal).
 
+   <details>
+      <summary>Fix for Custom DNS Users</summary><br>
+      <span>If you run your own local DNS and you cannot resolve horizon.hackucf.cloud with nslookup, then you will need to add the following to your Records.</span></br></br>
+      <span>DNS Records:</span>
+      <table>
+         <tr>
+            <th>Domain</th>
+            <th>IP Address</th>
+         </tr>
+         <tr>
+            <td>cloud.hackucf</td>
+            <td>10.4.4.10</td>
+         </tr>
+      </table>
+      <span>CNAME Records:</span>
+      <table>
+         <tr>
+            <th>FQDN</th>
+            <th>Domain</th>
+         </tr>
+         <tr>
+            <td>horizon.hackucf.cloud</td>
+            <td>cloud.hackucf</td>
+         </tr>
+         <tr>
+            <td>api.hackucf.cloud</td>
+            <td>cloud.hackucf</td>
+         </tr>
+      </table>
+   </details>
+
 ## Step 3: Create SSH Key
 
 1. Open a terminal.
