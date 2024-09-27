@@ -32,7 +32,7 @@
 ## Step 3: Create SSH Key
 
 1. Open a terminal.
-2. Run `ssh-keygen`.
+2. Run `ssh-keygen -t rsa`.
 3. Press Enter to save the key in the default location.
 4. Press Enter for an empty passphrase.
 5. Press Enter again to confirm.
