@@ -29,7 +29,7 @@ Remote Desktop Connection (Also known as RDP somtimes) is a program in Microsoft
 
 By default, Openstack blocks all inbound connections to Instances and therefore we need to make a security group to allow inbound RDP access
 
-Important Note: You cannot directly use this method on the very first time you startup your Instance as Windows requires you to set an Administrator password upon Instance creation. Follow Method 2 to gain initial access to the machine and add a password.
+Important Note: You cannot directly use this method on the very first time you startup your Instance as Windows requires you to set an Administrator password upon Instance creation. Follow Method 1 to gain initial access to the machine and add a password.
 
 ## Step 1: Creating a security group
 1. Connect to Infra via OpenVPN or `Cyberlab Secure`
