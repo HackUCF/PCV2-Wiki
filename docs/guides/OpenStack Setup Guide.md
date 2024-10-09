@@ -11,7 +11,7 @@
 1. Go to [https://openvpn.net/client/](https://openvpn.net/client/).
 2. Download the appropriate version of OpenVPN for your operating system and install it.
    
-   ### For Windows:
+### For Windows:
    
    - Press the Windows key and search for OpenVPN.
    - Run OpenVPN.
@@ -25,7 +25,7 @@
    - Press "Connect".
    - In the future, navigate to the OpenVPN client and select the on switch labeled "vpn.hackucf.org".
    
-   ### For Windows 10 Users:
+### For Windows 10 Users:
    
    - If you don't already have the new Windows Terminal, download it from [https://aka.ms/terminal](https://aka.ms/terminal).
 
