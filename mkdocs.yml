@@ -47,6 +47,7 @@ nav:
       - "Security Groups Guide": "guides/Security Groups.md"
       - "How to Launch an Instance": "guides/How to Launch an Instance.md"
       - "Migration Guide": "guides/Migrate Instance.md"
+      - "Windows Instances": "guides/How to access Windows Instances.md"
       - "Troubleshooting": "guides/Troubleshooting.md"
 #extra_css:
 #  - stylesheets/extra.css
