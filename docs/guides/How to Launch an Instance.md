@@ -2,6 +2,11 @@
 
 Launching an instance in OpenStack GUI is a straightforward process that allows you to deploy virtual machines within your cloud infrastructure. Below is a detailed guide on how to create an instance using the Horizon dashboard.
 
+## Prerequisites
+
+- [Setup Guide](./Openstack Setup Guide.md)
+- [Security Groups](./Security Groups.md)
+
 ## Step 1: Navigate to the Instance Tab
 
 1. Go to the **Instance** tab in the Horizon dashboard.
@@ -27,7 +32,7 @@ Launching an instance in OpenStack GUI is a straightforward process that allows 
 ## Step 5: Network
 
 1. Specify the **Network** to which you want your instance to connect.
-   - Choose the network that provides the desired connectivity and access for your instance.
+   - Choose External Network unless you know what you are doing
 
 ## Note: * denotes required fields
 
@@ -47,7 +52,24 @@ Launching an instance in OpenStack GUI is a straightforward process that allows 
 - After launching the instance, you can monitor its status in the Horizon dashboard.
 - Once the instance is in the "Active" state, click on its name to access its details.
 - From the instance details page, click on the **Console** tab to open a console and access your instance remotely.
-  
+
+# Using SSH
+Get the ip address of your instance from horizon. 
+Open up a terminal. For windows I recommend the [new windows terminal](https://aka.ms/terminal). Type ssh then the username for your distro. For example ubuntu is ``ubuntu`` alama is ``alamalinux``. A quick google for ``username cloud image {{distro name}}`` should do the trick. Then type ``ssh {{username}}@{{ip address}}``. Like this ``ssh ubuntu@192.168.20.1``. 
+
+## Troubleshooting SSH
+
+Adding ``-v`` will show more details about what is going on. ``ssh -v ubuntu@192.168.20.1``. You can add more ``-vv`` for more details ``ssh -vvv ubuntu@192.168.20.1``.
+
+1. Is your openvpn on? 
+2. Do you have the right ip adddress?
+3. Is your instance connected to the correct network? ``External Network``
+4. Is your security groups setup correctly?
+5. Is you ssh key added correctly? 
+6. Is ssh trying to use the correct ssh key?
+7. Do you have the correct user name?
+8. Ask for help in #infra-helpdesk on discord. 
+
 ## Conclusion
 
 By following these steps, you can successfully launch an instance in OpenStack GUI, enabling you to deploy virtual machines to meet your computing needs within your cloud environment. Remember to configure your instance with the appropriate settings and resources to optimize its performance and functionality.

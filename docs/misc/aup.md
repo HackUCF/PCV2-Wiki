@@ -39,6 +39,7 @@ This Acceptable Use Policy ("Agreement") is entered into between the user ("User
 
 ## 9. Network Restrictions:
 - Users are not allowed to set up TOR relay nodes, engage in torrent seeding or other public relay systems.
+- An exemption to the above restriction may be requested from platform administrators for educational or research purposes. 
 - Users may not access any part of the UCF network.
 - Users may not access any machines, virtual machines, networking equipment or any other components of the private cloud without explicit permission
 
@@ -56,6 +57,7 @@ This Acceptable Use Policy ("Agreement") is entered into between the user ("User
 
 ## 14. Cryptocurrency:
 - Users are prohibited from engaging in cryptocurrency-related activities on the Platform.
+- An exemption to the above restriction may be requested from platform administrators for educational or research purposes. 
 
 ## 15. Credential Sharing
 - Users are prohibited from sharing login credentials, including VPN access, with any other persons

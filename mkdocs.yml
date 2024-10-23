@@ -1,14 +1,22 @@
 site_name: HackUCF Private Cloud Docs
 copyright: CC-BY - Copyright &copy; 2024 Collegiate Cyber Defense Club
+repo_url: https://github.com/HackUCF/PCV2-Wiki
+repo_name: HackUCF/PCV2-Wiki
+edit_uri: edit/main/docs/
+site_url: https://help.hackucf.org/
+dev_url: 127.0.0.1:8000
+
 theme:
   name: material
   logo: assets/logo.svg
   favicon: assets/favicon.svg
   features:
-   - navigation.indexes
-   - navigation.tracking
-   - navigation.sections
-   - navigation.expand
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - content.action.edit
+    - content.action.view
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -21,7 +29,7 @@ theme:
       primary: black
       accent: amber
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -32,15 +40,15 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
 nav:
   - Home: index.md
   - "User Guides":
-    - "How to Launch an Instance": "guides/How to Launch an Instance.md"
-    - "Overview of OpenStack": "guides/Overview of OpenStack GUI.md"
-    - "OpenStack Setup Guide": "guides/OpenStack Stepup Guide.md"
-    - "Migration Guide": "guides/Migrate Instance.md"
-    - "Security Groups Guide": "guides/Security Groups.md"
-
+      - "Overview of OpenStack": "guides/Overview of OpenStack GUI.md"
+      - "OpenStack Setup Guide": "guides/OpenStack Setup Guide.md"
+      - "Security Groups Guide": "guides/Security Groups.md"
+      - "How to Launch an Instance": "guides/How to Launch an Instance.md"
+      - "Migration Guide": "guides/Migrate Instance.md"
+      - "Windows Instances": "guides/How to access Windows Instances.md"
+      - "Troubleshooting": "guides/Troubleshooting.md"
 #extra_css:
 #  - stylesheets/extra.css
