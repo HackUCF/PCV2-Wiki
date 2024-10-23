@@ -64,8 +64,7 @@ sudo nm-connection-editor
 7. Select Save
 
 8. Connect to the network
-The Cyberlab Secure should be available where you normally connect to wifi.
-if not run
+The Cyberlab Secure network should be available where you normally connect to Wi-Fi. If not, run
 ```bash
 nmcli connection up "Cyberlab Secure"
 ```
