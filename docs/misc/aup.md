@@ -26,6 +26,7 @@ This Acceptable Use Policy ("Agreement") is entered into between the user ("User
 - Users agree to follow UCF policies including [4-002 Use of Information Technologies and
 Resources](https://policies.ucf.edu/documents/4-002.pdf)
 > A.1. Users must comply with all applicable conduct codes and rules, laws, andregulations governing the use of computer and telecommunications resources. Examples include laws regarding libel, privacy, copyright, trademark, obscenity, and child pornography; the Florida Computer Crimes Act; the Electronic Communications Privacy Act; and the Computer Fraud and Abuse Act.
+
 > B.3. The computing and telecommunications resources of the university must not be used for unapproved commercial purposes, or for personal financial gain, without express written approval from the provost and executive vice president or his or her designee.
 
 
