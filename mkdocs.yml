@@ -47,5 +47,6 @@ nav:
       - "Security Groups Guide": "guides/Security Groups.md"
       - "How to Launch an Instance": "guides/How to Launch an Instance.md"
       - "Migration Guide": "guides/Migrate Instance.md"
+      - "OpenStack with Terraform": "guides/OpenStack with Terraform.md"
 #extra_css:
 #  - stylesheets/extra.css
