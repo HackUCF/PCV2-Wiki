@@ -22,50 +22,60 @@ This Acceptable Use Policy ("Agreement") is entered into between the user ("User
 - Users shall not engage in any activities that violate ethical standards or compromise the integrity of the Platform.
 - User must comply with Hack@UCF’s ethics code
 
-## 4. Software Piracy:
+## 4. Comply with UCF Policies 
+- Users agree to follow UCF policies including [4-002 Use of Information Technologies and
+Resources](https://policies.ucf.edu/documents/4-002.pdf)
+> A.1. Users must comply with all applicable conduct codes and rules, laws, andregulations governing the use of computer and telecommunications resources. Examples include laws regarding libel, privacy, copyright, trademark, obscenity, and child pornography; the Florida Computer Crimes Act; the Electronic Communications Privacy Act; and the Computer Fraud and Abuse Act.
+
+> B.3. The computing and telecommunications resources of the university must not be used for unapproved commercial purposes, or for personal financial gain, without express written approval from the provost and executive vice president or his or her designee.
+
+
+- Full list of policies can be found at [https://www.policies.ucf.edu/](https://www.policies.ucf.edu/)
+
+## 5. Software Piracy:
 - Users must not engage in the unauthorized distribution or use of copyrighted software. Don't Pirate.
 
-## 5. Resource Usage:
+## 6. Resource Usage:
 - Users are prohibited from engaging in excessive network traffic or resource usage that may impact the performance of the Platform for others.
 
-## 6. Access Control:
+## 7. Access Control:
 - Users may only access machines and IP addresses explicitly permitted by the Platform administrators.
 
-## 7. Data Guarantees:
+## 8. Data Guarantees:
 - The Platform provides no uptime guarantees, and there are no assurances of the existence of data. Users are responsible for regular backups.
 
-## 8. Data Access:
+## 9. Data Access:
 - Platform administrators, Hack@UCF executives, authorized UCF personnel, and law enforcement may access any data stored on the Platform.
 
-## 9. Network Restrictions:
+## 10. Network Restrictions:
 - Users are not allowed to set up TOR relay nodes, engage in torrent seeding or other public relay systems.
 - An exemption to the above restriction may be requested from platform administrators for educational or research purposes. 
 - Users may not access any part of the UCF network.
 - Users may not access any machines, virtual machines, networking equipment or any other components of the private cloud without explicit permission
 
-## 10. Public IP Addresses:
+## 11. Public IP Addresses:
 - The Platform does not provide public IP addresses for users.
 
-## 11. Security Responsibility:
+## 12. Security Responsibility:
 - Users are responsible for securing their instances connected to the public network.
 
-## 12. Account Management:
+## 13. Account Management:
 - User accounts are disabled and removed at the end of each academic year unless specified otherwise (Fall to Spring).
 
-## 13. Logging:
+## 14. Logging:
 - All activities on the Platform are logged for security and accountability purposes.
 
-## 14. Cryptocurrency:
+## 15. Cryptocurrency:
 - Users are prohibited from engaging in cryptocurrency-related activities on the Platform.
 - An exemption to the above restriction may be requested from platform administrators for educational or research purposes. 
 
-## 15. Credential Sharing
+## 16. Credential Sharing
 - Users are prohibited from sharing login credentials, including VPN access, with any other persons
 
-## 16. Other Prohibited Activity
+## 17. Other Prohibited Activity
 - The Platform Administrators or Hack@UCF’s Execs may at any time request that you temporarily or permanently cease certain activities on the Platform, these requests must be complied with. 
 
-## 17. Responsible Disclosure of Security Issues
+## 18. Responsible Disclosure of Security Issues
 - The User shall promptly and confidentially report any identified Security Issues to the Platform administrators or Hack@UCF via a designated contact method provided by the Platform.
 - In the context of the Hack@UCF Private Cloud, a security issue refers to any vulnerability, weakness, or flaw in the system's design, implementation, or configuration that could potentially lead to unauthorized access, data breaches, service disruptions, or other compromises of the platform's integrity, confidentiality, or availability. Security issues may arise from software bugs, misconfigurations, inadequate access controls, or other factors that could be exploited by malicious actors to compromise the security and functionality of the private cloud infrastructure.
 - The User shall refrain from attempting to exploit any identified Security Issues beyond what is necessary to validate and demonstrate the vulnerability. Unauthorized access to data, systems, or networks is strictly prohibited.

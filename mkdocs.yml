@@ -1,4 +1,5 @@
 site_name: HackUCF Private Cloud Docs
+copyright: CC-BY - Copyright &copy; 2024 Collegiate Cyber Defense Club
 repo_url: https://github.com/HackUCF/PCV2-Wiki
 repo_name: HackUCF/PCV2-Wiki
 edit_uri: edit/main/docs/
@@ -48,5 +49,12 @@ nav:
       - "How to Launch an Instance": "guides/How to Launch an Instance.md"
       - "Migration Guide": "guides/Migrate Instance.md"
       - "OpenStack with Terraform": "guides/OpenStack with Terraform.md"
+      - "Windows Instances": "guides/How to access Windows Instances.md"
+      - "Troubleshooting": "guides/Troubleshooting.md"
+      - "Linux Cyberlab Secure": "guides/Linux Cyberlab Secure.md"
 #extra_css:
 #  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
