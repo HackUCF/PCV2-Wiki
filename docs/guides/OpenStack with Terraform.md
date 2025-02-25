@@ -62,7 +62,7 @@ Move the downloaded `clouds.yaml` file into the `terraform_project` directory.
 
 ### 5.1 `variables.tf` Configuration
 
-Define input variables in `variables.tf` to parameterize the infrastructure deployment.
+Define input variables in `variables.tf` to parameterize the infrastructure deployment. Note: replace "key_pair" with the name of your key pair in OpenStack.
 ```
 variable "image_name" {
   default = "Ubuntu 24.04"
