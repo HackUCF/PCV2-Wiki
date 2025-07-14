@@ -54,21 +54,21 @@ Launching an instance in OpenStack GUI is a straightforward process that allows 
 - From the instance details page, click on the **Console** tab to open a console and access your instance remotely.
 
 # Using SSH
-Get the ip address of your instance from horizon. 
-Open up a terminal. For windows I recommend the [new windows terminal](https://aka.ms/terminal). Type ssh then the username for your distro. For example ubuntu is ``ubuntu`` alama is ``alamalinux``. A quick google for ``username cloud image {{distro name}}`` should do the trick. Then type ``ssh {{username}}@{{ip address}}``. Like this ``ssh ubuntu@192.168.20.1``. 
+Get the ip address of your instance from horizon.
+Open up a terminal. For windows I recommend the [new windows terminal](https://aka.ms/terminal). Type ssh then the username for your distro. For example ubuntu is ``ubuntu`` alama is ``alamalinux``. A quick google for ``username cloud image {{distro name}}`` should do the trick. Then type ``ssh {{username}}@{{ip address}}``. Like this ``ssh ubuntu@192.168.20.1``.
 
 ## Troubleshooting SSH
 
 Adding ``-v`` will show more details about what is going on. ``ssh -v ubuntu@192.168.20.1``. You can add more ``-vv`` for more details ``ssh -vvv ubuntu@192.168.20.1``.
 
-1. Is your openvpn on? 
+1. Is your openvpn on?
 2. Do you have the right ip adddress?
 3. Is your instance connected to the correct network? ``External Network``
 4. Is your security groups setup correctly?
-5. Is you ssh key added correctly? 
+5. Is you ssh key added correctly?
 6. Is ssh trying to use the correct ssh key?
 7. Do you have the correct user name?
-8. Ask for help in #infra-helpdesk on discord. 
+8. Ask for help in #infra-helpdesk on discord.
 
 ## Conclusion
 

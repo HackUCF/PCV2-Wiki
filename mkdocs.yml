@@ -52,9 +52,18 @@ nav:
       - "Windows Instances": "guides/How to access Windows Instances.md"
       - "Troubleshooting": "guides/Troubleshooting.md"
       - "Linux Cyberlab Secure": "guides/Linux Cyberlab Secure.md"
+      - "How to use Virtual Networks": "guides/How to use Virtual Networks.md"
 #extra_css:
 #  - stylesheets/extra.css
+plugins:
+  - glightbox
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
