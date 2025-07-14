@@ -14,6 +14,7 @@ Virtual Networks are essential tools in OpenStack cloud environments for cyber l
 
 ### What You'll Learn
 In this guide, you'll learn how to:
+
 - Create your own virtual network
 - Set up a router to connect networks
 - Launch instances (virtual machines) in your network
@@ -29,20 +30,20 @@ Be sure to follow the instructions in the [OpenStack Setup Guide](../OpenStack S
 
 1. **Log in** to your OpenStack dashboard
 2. Navigate to **`Project > Network > Networks`**
-    - ![Navigate to Project > Network > Networks](../img/virtual-networks/Select-Networks.png){width="50%",loading=lazy}
+    - ![Navigate to Project > Network > Networks](../img/virtual-networks/Select-Networks.png){loading=lazy}
 
 3. Click **`Create Network`**
-    - ![Create Network](../img/virtual-networks/create-network.png){width="50%",loading=lazy}
+    - ![Create Network](../img/virtual-networks/create-network.png){loading=lazy}
 
 4. In the "Network" tab:
     - Enter a **name** for your network (e.g., "internal-network")
     - Click **`Next`**
-    - ![Wizard Screen 1](../img/virtual-networks/network-wizard-1.png){width="50%",loading=lazy}
+    - ![Wizard Screen 1](../img/virtual-networks/network-wizard-1.png){loading=lazy}
 5. In the "Subnet" tab:
     - Enter a **subnet name** (e.g., "internal-subnet")
     - Enter **Network Address** (e.g., "192.168.1.0/24")
     - Click **`Next`**
-    - ![Wizard Screen 2](../img/virtual-networks/network-wizard-2.png){width="50%",loading=lazy}
+    - ![Wizard Screen 2](../img/virtual-networks/network-wizard-2.png){loading=lazy}
 6. In the "Subnet Details" tab:
     - Defaults are fine; Click **`Create`**
 
@@ -77,13 +78,13 @@ graph LR
 2. Click **`Create Router`**
 3. Enter a **name** for your router (e.g., "main-router")
 4. Select **"External Network"** as the External Network
-    - ![Select External Network](../img/virtual-networks/router1.png){width="50%",loading=lazy}
+    - ![Select External Network](../img/virtual-networks/router1.png){loading=lazy}
 5. Click **`Create Router`**
 6. Click on your new router
 7. Go to the **"Interfaces"** tab
 8. Click **`Add Interface`**
 9. Select your **internal network subnet**
-    - ![Select Internal Network](../img/virtual-networks/Subnet-router.png){width="50%",loading=lazy}
+    - ![Select Internal Network](../img/virtual-networks/Subnet-router.png){loading=lazy}
 10. Click **`Submit`**
 
 ## Creating Instances
@@ -97,7 +98,7 @@ graph LR
 
 1. Follow the instruction in [How to Launch an Instance](../guides/How%20to%20Launch%20an%20Instance.md)
 2. When configuring networking, **select your internal network subnet** instead of the external network
-      - ![Select Internal Network](../img/virtual-networks/create-instance-2.png){width="50%",loading=lazy}
+      - ![Select Internal Network](../img/virtual-networks/create-instance-2.png){loading=lazy}
 
 
 
@@ -115,10 +116,10 @@ graph LR
 
 1. Navigate to **`Project > Compute > Instances`**
 2. Click the **dropdown menu** next to your first instance
-    - ![Allocate Floating IP](../img/virtual-networks/ip1.png){width="50%",loading=lazy}
+    - ![Allocate Floating IP](../img/virtual-networks/ip1.png){loading=lazy}
 3. Select **`Associate Floating IP`**
 4. Click the **`+` button** to allocate a new floating IP
-    - ![Allocate Floating IP](../img/virtual-networks/ip2.png){width="50%",loading=lazy}
+    - ![Allocate Floating IP](../img/virtual-networks/ip2.png){loading=lazy}
 5. Select **"external-network"** from the pool
 6. Click **`Allocate IP`**
 7. Select the new IP address
