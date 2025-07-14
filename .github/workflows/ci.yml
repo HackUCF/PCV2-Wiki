@@ -20,5 +20,5 @@ jobs:
           python-version: 3.x
           cache: "pip"
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-      - run: pip install mkdocs-material
+      - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
