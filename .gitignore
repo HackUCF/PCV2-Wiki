@@ -1,1 +1,21 @@
+
+# MkDocs build output
 site/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+

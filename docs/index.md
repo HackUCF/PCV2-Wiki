@@ -1,6 +1,13 @@
 # Welcome to HackUCF Private Cloud Wiki
 
+
+!!! warning "Important: Acceptable Use Policy"
+    Before using the HackUCF Private Cloud Platform, please review and agree to our [**Acceptable Use Policy (AUP)**](./misc/aup.md). All users must comply with these terms and conditions.
+
+If you are here for the first time go to [HERE](./guides/Overview of OpenStack GUI.md)
+
 ## What is HackUCF Private Cloud?
+
 
 HackUCF Private Cloud (PCV2) is a student-managed OpenStack cloud infrastructure that provides University of Central Florida students and faculty with hands-on experience in cloud computing technologies. Our private cloud offers virtualized compute resources, networking, and storage services in a controlled educational environment.
 

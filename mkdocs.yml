@@ -53,6 +53,7 @@ nav:
       - "Troubleshooting": "guides/Troubleshooting.md"
       - "Linux Cyberlab Secure": "guides/Linux Cyberlab Secure.md"
       - "How to use Virtual Networks": "guides/How to use Virtual Networks.md"
+  - "Acceptable Use Policy": "misc/aup.md"
 #extra_css:
 #  - stylesheets/extra.css
 plugins:
