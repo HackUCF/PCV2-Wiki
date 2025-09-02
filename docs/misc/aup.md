@@ -17,7 +17,7 @@ This Acceptable Use Policy ("Agreement") is entered into between the user ("User
 - The purpose of the Hack@UCF private cloud is to provide a platform for members to experiment and learn 
 - This AUP lays out the ground rules for using this platform
 
-## 3. Ethical Use:
+## 3. Ethical Use
 - Users must adhere to UCF's Golden Rule and all applicable laws and regulations.
 - Users shall not engage in any activities that violate ethical standards or compromise the integrity of the Platform.
 - User must comply with Hack@UCF’s ethics code
@@ -32,40 +32,40 @@ Resources](https://policies.ucf.edu/documents/4-002.pdf)
 
 - Full list of policies can be found at [https://www.policies.ucf.edu/](https://www.policies.ucf.edu/)
 
-## 5. Software Piracy:
+## 5. Software Piracy
 - Users must not engage in the unauthorized distribution or use of copyrighted software. Don't Pirate.
 
-## 6. Resource Usage:
+## 6. Resource Usage
 - Users are prohibited from engaging in excessive network traffic or resource usage that may impact the performance of the Platform for others.
 
-## 7. Access Control:
+## 7. Access Control
 - Users may only access machines and IP addresses explicitly permitted by the Platform administrators.
 
-## 8. Data Guarantees:
+## 8. Data Guarantees
 - The Platform provides no uptime guarantees, and there are no assurances of the existence of data. Users are responsible for regular backups.
 
-## 9. Data Access:
+## 9. Data Access
 - Platform administrators, Hack@UCF executives, authorized UCF personnel, and law enforcement may access any data stored on the Platform.
 
-## 10. Network Restrictions:
+## 10. Network Restrictions
 - Users are not allowed to set up TOR relay nodes, engage in torrent seeding or other public relay systems.
 - An exemption to the above restriction may be requested from platform administrators for educational or research purposes. 
 - Users may not access any part of the UCF network.
 - Users may not access any machines, virtual machines, networking equipment or any other components of the private cloud without explicit permission
 
-## 11. Public IP Addresses:
+## 11. Public IP Addresses
 - The Platform does not provide public IP addresses for users.
 
-## 12. Security Responsibility:
+## 12. Security Responsibility
 - Users are responsible for securing their instances connected to the public network.
 
-## 13. Account Management:
+## 13. Account Management
 - User accounts are disabled and removed at the end of each academic year unless specified otherwise (Fall to Spring).
 
-## 14. Logging:
+## 14. Logging
 - All activities on the Platform are logged for security and accountability purposes.
 
-## 15. Cryptocurrency:
+## 15. Cryptocurrency
 - Users are prohibited from engaging in cryptocurrency-related activities on the Platform.
 - An exemption to the above restriction may be requested from platform administrators for educational or research purposes. 
 
