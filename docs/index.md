@@ -9,7 +9,7 @@ If you are here for the first time go to [HERE](./guides/Overview of OpenStack G
 ## What is HackUCF Private Cloud?
 
 
-HackUCF Private Cloud (PCV2) is a student-managed OpenStack cloud infrastructure that provides University of Central Florida students and faculty with hands-on experience in cloud computing technologies. Our private cloud offers virtualized compute resources, networking, and storage services in a controlled educational environment.
+HackUCF Private Cloud (PCV2) is a student-managed OpenStack cloud infrastructure that provides Hack@UCF members with hand on cloud computing experience. Our private cloud offers virtualized compute resources, networking, and storage services in a controlled educational environment.
 
 ## Key Features
 
@@ -46,7 +46,7 @@ If you're new to HackUCF Private Cloud, we recommend starting with our comprehen
 ## Support & Resources
 
 - **Documentation**: This wiki contains comprehensive guides and tutorials
-- **Community**: Join the HackUCF Discord for community support and discussions
+- **Community**: Join the [HackUCF Discord](https://hackucf.org/discord) for community support and discussions
 - **GitHub**: Contribute to documentation and report issues on our [GitHub repository](https://github.com/HackUCF/PCV2-Wiki)
 
 ## Contributing
