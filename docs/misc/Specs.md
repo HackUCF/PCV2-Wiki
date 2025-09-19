@@ -2,9 +2,9 @@
 
 
 ## Total Specs
-Total CPU Cores: 412
-Total RAM: 2670.8 GB
-Total Storage: 252.16 TB
+- Total CPU Cores: 412
+- Total RAM: 2670.8 GB
+- Total Storage: 252.16 TB
 
 ## Networking
 We have two enterprise-grade 10Gbps Ethernet switches.
