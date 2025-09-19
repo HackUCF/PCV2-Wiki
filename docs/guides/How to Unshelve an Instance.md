@@ -20,13 +20,15 @@ You can't turn it on because it's temporarilly deleted but you can rebuild it to
 
 If you've had it shutdown and untouched for a long time, most likely **yes**. Here's how you can tell.
 
-**FIRST**, to turn on a shut down machine, select it, click the **"More Actions"** drop down, and click **"Start Instances"**.
-If the instance is shelved you'll get an error as shown below.
+To turn on a shut down machine, select it, click the **"More Actions"** drop down, and click **"Start Instances"**.
+If the instance is shelved you'll get an error as shown below. You can also see if it is shelved under its **STATUS**.
 
 ![step1](../img/Unshelve-instance/unshelving-step1.png)
 
-**SECOND**, to truly confirm your instance is shelved, click the instance name, and look at its status, if it is shelved it will say "**Shelved Offloaded**"
+## Step 2: How to unshelve instance ##
+
+Once you confirm your instance is shelved, go back to the instance tab on openstack and: select the instance name, click the dropdown next to "Associate Floating IP", and click "**Unshelve Instance**"
 
 ![step1](../img/Unshelve-instance/unshelving-step2.png)
 
-![step1](../img/Unshelve-instance/unshelving-step3.png)
+And you're done!
