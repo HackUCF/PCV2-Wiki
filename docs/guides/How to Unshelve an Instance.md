@@ -23,4 +23,5 @@ If you've had it shutdown and untouched for a long time, most likely **yes**. He
 **FIRST**, to turn on a shut down machine, select it, click the **"More Actions"** drop down, and click **"Start Instances"**.
 If the instance is shelved you'll get an error as shown below.
 
-![step1](..\img\Unshelve-instance\unshelving-step1.png)
+![step1](../img/Unshelve-instance/unshelving-step1.png)
+
