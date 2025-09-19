@@ -25,3 +25,8 @@ If the instance is shelved you'll get an error as shown below.
 
 ![step1](../img/Unshelve-instance/unshelving-step1.png)
 
+**SECOND**, to truly confirm your instance is shelved, click the instance name, and look at its status, if it is shelved it will say "**Shelved Offloaded**"
+
+![step1](../img/Unshelve-instance/unshelving-step2.png)
+
+![step1](../img/Unshelve-instance/unshelving-step3.png)
