@@ -28,10 +28,10 @@ Depending on your security and accessibility needs you'll need to tailor your se
 2. Click on Create Security Group
 ![alt text](../img/Security-Groups/Create-Security-Group.png)
 
-3. Name your new Secuirty Group something like "Allow SSH" or something similar to make it easier to remember in the future. You can also add a description for further clarification. When you're finished naming click Create Security Group.
+3. Name your new Security Group something like "Allow SSH" or something similar to make it easier to remember in the future. You can also add a description for further clarification. When you're finished naming click Create Security Group.
 ![alt text](../img/Security-Groups/Naming-Sec-Group.png)
 
-4. You'll then be taken to the rule management papge. Here you can add the specific rules you want for traffic on your instance. Here's a break down of the terms you'll see:
+4. You'll then be taken to the rule management page. Here you can add the specific rules you want for traffic on your instance. Here's a break down of the terms you'll see:
 ![alt text](../img/Security-Groups/Rules-Explained.png)
     - Egress: Outgoing network traffic from your vm
     - Ingress: Inbound network traffic to your vm
