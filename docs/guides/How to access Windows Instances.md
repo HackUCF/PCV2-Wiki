@@ -92,6 +92,8 @@ RDP will now be allowed through the Openstack firewall for the instance!
 
 ### Part 3: Connecting to your the instance ###
 
+
+
 #### Connecting from Another Windows Device ####
 This is the most simple way to access a windows instance with RDP, as Windows comes with the needed software pre-installed. 
 **Make sure you are connected to the HACK@UCF infrastructure via OpenVPN before attempting to connect**
@@ -112,6 +114,8 @@ This is the most simple way to access a windows instance with RDP, as Windows co
 ![Step2-6.png](../img/win-guide-new/Windows-Windows-RDP-method/Step2-6.png)
 8. You are now logged into your instsance, and you can navigate as you would any windows device.
 ![Step2-7.png](../img/win-guide-new/Windows-Windows-RDP-method/Step2-7.png)
+
+
 
 
 #### Connecting to your Windows instance from a Linux Device ####
@@ -137,7 +141,8 @@ See https://remmina.org/how-to-install-remmina/ for more help with installing th
 ![Step4-9.png](../img/win-guide-new/Linux-Windows-RDP-Method/Step4-9.png)
 10. You should now be logged in to the windows instance and be able to navigate as you would any windows device.
 
-
+#### Connecting to your Windows instance from a mac device ####
+UUWork In Progress**
 
 
 
@@ -161,30 +166,3 @@ See https://remmina.org/how-to-install-remmina/ for more help with installing th
 
 ![Instance page](../img/win-guide/rdp_final.png)
 
-
-## Retrieving Windows Password #
-
-To retrieve the Windows password for an instance in OpenStack Horizon, you need to follow these steps. This process assumes that you have created the instance with an SSH key, which is necessary for decrypting the password.
-
-### Step 1: Creating an Instance with an SSH Key ##
-
-1. On the left pane, choose `Compute` and then `Instances`.
-2. Click on `Launch Instance`.
-3. Fill in the necessary details for your instance, such as the instance name and flavor.
-4. Under the `Key Pair` section, select an existing key pair or create a new one. This key pair will be used to decrypt the Windows password. **Ensure the key is a RSA key.**
-![RSA_key](../img/win-guide/rsa_key.png)
-
-
-### Step 2: Retrieving the Windows Password ##
-
-1. On the left pane, choose `Compute` and then `Instances`.
-![Instance page](../img/win-guide/instancespage.png)
-2. Click on the instance for which you want to retrieve the password.
-![Instance page](../img/win-guide/instancespage2.png)
-3. Click on the `Actions` dropdown menu on the right and select `Retrieve Password`.
-![dropdown password](../img/win-guide/dropdown_password.png)
-4. In the `Retrieve Password` dialog, click on `Choose File` and upload the private key file associated with the SSH key pair used during instance creation.
-![retrieve password](../img/win-guide/retrieve_password.png)
-5. Click on `Decrypt Password`. The decrypted password will be displayed.
-
-You can now use this password to log in to your Windows instance via the OpenStack console or Remote Desktop Connection.
