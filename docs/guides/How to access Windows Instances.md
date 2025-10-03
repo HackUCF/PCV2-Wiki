@@ -8,22 +8,43 @@ There are 2 main ways to get access and control a Windows Instance on Openstack.
 * Access to Infra via OpenVPN OR On the Cyberlab Secure Network
 
 
+## Preparation: Recover your Windows Instance Password ##
+For some windows instance images, you will need to retrieve the password so you can set a new administrator password. If you already have an instance created and going with an SSH key, you can skip Step 1.  
 
-## Method 1: Using the Openstack Console (Must be used for initial Windows Setup) ##
+- Step 1: Create instance with an SSH key (use images from repo)
+    1. On the left pane, choose `Compute` and then `Instances`. 
+    ![Step2-1](../img/win-guide-new/Recover-Windows-Instance-Password/Step2-1.png)
+    2. Locate the instance you want to access the console of, and click on its name.
+    ![Step2-2](../img/win-guide-new/Recover-Windows-Instance-Password/Step2-2.png)
+    3. Select the `Console` tab under the instance name. 
+    ![Step2-3.png](../img/win-guide-new/Recover-Windows-Instance-Password/Step2-3.png)
+    4. Send a ctrl+alt+delete to the server by pressing the `Send CtrlAltDelete` button in the upper right hand corner. 
+    ![Step2-4.png](../img/win-guide-new/Recover-Windows-Instance-Password/Step2-4.png)
+    5. Log into the instance. If this is your first time, it may ask you to change the password. If it asks you for the pervious password, enter the password you retrieved earlier, then enter in the password you would like, make sure to note it down.
+    ![Step2-5.png](../img/win-guide-new/Recover-Windows-Instance-Password/Step2-5.png)
 
-Openstack has a built-in console viewer for Instances which allows you to get a true console view of the Instance allowing for easier debugging of the Instance. You will have to use this method to initially setup Windows Server.
+
+
+## Method 1: Connect Using the Openstack Console (Must be used for initial Windows Setup) ##
+
+Openstack has a built-in console viewer for Instances which allows you to get a true console view of the Instance allowing for easier debugging of the Instance. You will have to log in using this method to initially set up any new Windows Instance. 
 
 ### Steps: ###
-1. On the left plane, choose `Compute` and then `Instances`
-![Instance page](../img/win-guide/instancespage.png)
-2. Click on the Instance to view
-![Instance page](../img/win-guide/instancespage2.png)
-3. Click on the `Console` tab
-![Instance page](../img/win-guide/consoletab.png)
-4. You now have a console view of the Instance! From here you can add an Administrator password to Windows and use the Instance!
-![Instance page](../img/win-guide/consoleview.png)
+1. On the left plane, choose `Compute` and then `Instances`.
+![Step1-1.png](../img/win-guide-new/Login-Via-Openstack-Console/Step1-1.png)
+2. Locate the instance you want to access the console of, and click on its name.
+![Step1-2.png](../img/win-guide-new/Login-Via-Openstack-Console/Step1-2.png)
+3. Select the `Console` tab under the instance name.
+![Step1-3.png](../img/win-guide-new/Login-Via-Openstack-Console/Step1-3.png)
+4.  Send a ctrl+alt+delete to the server by pressing the `Send CtrlAltDelete` button in the upper right hand corner.
+![Step1-4.png](../img/win-guide-new/Login-Via-Openstack-Console/Step1-4.png)
+5. Log into the instance. If this is your first time, it may ask you to change the password. If it asks you for the pervious password, enter the password you retrieved earlier, then enter in the password you would like, make sure to note it down.
+![Step1-5.png](../img/win-guide-new/Login-Via-Openstack-Console/Step1-5.png)
+6. You may now access the instance through the openstack console normally as you would any other windows device.
+![Step1-6.png](../img/win-guide-new/Login-Via-Openstack-Console/Step1-6.png)
 
-## Method 2: Using Remote Desktop Connection ##
+
+## Method 2: Using Remote Desktop Connection (RDP)##
 
 Remote Desktop Connection (Also known as RDP somtimes) is a program in Microsoft Windows that allows you to access another Windows computer over a network. Using this method has added benefits such as easy folder sharing, viewing the Instance in full-screen mode, clipboard sharing and more!
 
@@ -31,7 +52,9 @@ By default, Openstack blocks all inbound connections to Instances and therefore 
 
 Important Note: You cannot directly use this method on the very first time you startup your Instance as Windows requires you to set an Administrator password upon Instance creation. Follow Method 1 to gain initial access to the machine and add a password.
 
-### Step 1: Creating a security group ###
+### Part 1: Opening RDP Access for your Instance ###
+
+#### Step 1: Creating a security group ###
 1. Connect to Infra via OpenVPN or `Cyberlab Secure`
 2. Go to `horizon.hackucf.cloud` and log into your account
 3. Click on `Network` on the left-hand pane and then `Security Groups`
@@ -46,7 +69,7 @@ Important Note: You cannot directly use this method on the very first time you s
 
 This new group can be applied to any future Windows Instances to quickly allow RDP access
 
-### Step 2: Adding the security group to your Instance ###
+#### Step 2: Adding the security group to your Instance ###
 1. On the left plane, choose `Compute` and then `Instances`
 ![Instance page](../img/win-guide/instancespage.png)
 
@@ -65,6 +88,23 @@ This new group can be applied to any future Windows Instances to quickly allow R
 
 
 RDP will now be allowed through the Openstack firewall for the instance!
+
+
+### Part 3: Connecting to your the instance ###
+
+#### Connecting from Windows ####
+
+1. 
+
+
+
+
+
+
+
+
+
+
 
 ### Step 3: Connecting to the instance ###
 1. Open your remote desktop client
