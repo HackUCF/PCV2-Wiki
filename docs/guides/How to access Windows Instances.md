@@ -92,12 +92,50 @@ RDP will now be allowed through the Openstack firewall for the instance!
 
 ### Part 3: Connecting to your the instance ###
 
-#### Connecting from Windows ####
+#### Connecting from Another Windows Device ####
+This is the most simple way to access a windows instance with RDP, as Windows comes with the needed software pre-installed. 
+**Make sure you are connected to the HACK@UCF infrastructure via OpenVPN before attempting to connect**
 
-1. 
+1. On the left plane, choose `Compute` and then `Instances`
+![Step2-0.png](../img/win-guide-new/Windows-Windows-RDP-method/step2-0.png)
+2. Locate the name of the instance you want to access and note down it IP address.
+![Step2-1.png](../img/win-guide-new/Windows-Windows-RDP-method/Step2-1.png)
+3. Open the Windows Start Menu, type in "Remote Desktop Connection", and open the `Remote Desktop Connection` application
+![Step2-2.png](../img/win-guide-new/Windows-Windows-RDP-method/Step2-2.png)
+4. In the `Computer:` field, enter in the IP address of you noted in step 2, and press `Connect`.
+![Step2-3.png](../img/win-guide-new/Windows-Windows-RDP-method/Step2-3.png)
+5. When windows security prompts you to enter your credentials, select `Use a different account`.
+![Step2-4.png](../img/win-guide-new/Windows-Windows-RDP-method/Step2-4.png)
+6. In the `User name` field, enter "Administrator", and in the `Password` field, enter in the password you set when first logging in to your Windows instance, then select `OK`.
+![Step2-5.png](../img/win-guide-new/Windows-Windows-RDP-method/Step2-5.png)
+7. If you recieve a warning from windows stating that "The identity of the remote computer cannot be verified", check the `Don't ask me again for connections to this computer` option, and then select `Yes`.
+![Step2-6.png](../img/win-guide-new/Windows-Windows-RDP-method/Step2-6.png)
+8. You are now logged into your instsance, and you can navigate as you would any windows device.
+![Step2-7.png](../img/win-guide-new/Windows-Windows-RDP-method/Step2-7.png)
 
 
+#### Connecting to your Windows instance from a Linux Device ####
+For connecting to a windows instance with RDP for Linux, we will use the Remmina client.
+See https://remmina.org/how-to-install-remmina/ for more help with installing the Remmina client.
 
+1. Open Remmina, either from your applications menu or the console. 
+2. Press the `+` add new connection button in the top left corner.
+![Step4-2.png](../img/win-guide-new/Linux-Windows-RDP-Method/Step4-2.png)
+3. In the `Name` field, enter in what you would like to name the connection to your windows instance.
+![Step4-3.png](../img/win-guide-new/Linux-Windows-RDP-Method/Step4-3.png)
+4. Select the `Protocol` dropdown and select `RDP - Remote Desktop Protocol` as your protocol.
+![Step4-4.png](../img/win-guide-new/Linux-Windows-RDP-Method/Step4-4.png)
+5. In the`Server` field, enter in your instance's IP address.
+![Step4-5.png](../img/win-guide-new/Linux-Windows-RDP-Method//Step4-5.png)
+6. In the `Username` and `Password` fields, enter in the username (likely "Administrator") and password you set on the instance earlier.
+![Step4-6.png](../img/win-guide-new/Linux-Windows-RDP-Method/Step4-6.png)
+7. Select `Save and Connect`.
+![Step4-7.png](../img/win-guide-new/Linux-Windows-RDP-Method/Step4-7.png)
+8. When prompted to accept the server's certificate, select `Yes`.
+![Step4-8.png](../img/win-guide-new/Linux-Windows-RDP-Method/Step4-8.png)
+9. Verify the authentication credentials, then select `OK`.
+![Step4-9.png](../img/win-guide-new/Linux-Windows-RDP-Method/Step4-9.png)
+10. You should now be logged in to the windows instance and be able to navigate as you would any windows device.
 
 
 
