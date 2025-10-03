@@ -20,7 +20,7 @@ Before contributing, make sure you have the following:
 
 ### 1. Fork the Repository
 
-- Go to the MkDocs website repository on GitHub.
+- Make a fork of this repo
 - Click the "Fork" button to create your own copy of the repository.
 
 ### 2. Clone the Repository

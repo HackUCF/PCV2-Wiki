@@ -52,8 +52,10 @@ nav:
       - "Windows Instances": "guides/How to access Windows Instances.md"
       - "Troubleshooting": "guides/Troubleshooting.md"
       - "Linux Cyberlab Secure": "guides/Linux Cyberlab Secure.md"
+      - "How to Unshelve Instance": "guides/How to Unshelve an Instance.md"
       - "How to use Virtual Networks": "guides/How to use Virtual Networks.md"
   - "Acceptable Use Policy": "misc/aup.md"
+  - "Infra Total Spec": "misc/Specs.md"
 #extra_css:
 #  - stylesheets/extra.css
 plugins:
