@@ -91,6 +91,10 @@ RDP will now be allowed through the Openstack firewall for the instance!
 
 
 ### Part 3: Connecting to your the instance ###
+For the purposes of this guide, we will use the following applications for RDP.
+* Windows Clients: Open Start Menu > type in "Remote Desktop Connection"
+* MacOS Clients: [Windows App](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12)
+* Linux Clients: [Remmina](https://remmina.org/)
 
 
 
@@ -131,38 +135,36 @@ See https://remmina.org/how-to-install-remmina/ for more help with installing th
 ![Step4-4.png](../img/win-guide-new/Linux-Windows-RDP-Method/Step4-4.png)
 5. In the`Server` field, enter in your instance's IP address.
 ![Step4-5.png](../img/win-guide-new/Linux-Windows-RDP-Method//Step4-5.png)
-6. In the `Username` and `Password` fields, enter in the username (likely "Administrator") and password you set on the instance earlier.
+6. In the `Username` and `Password` fields, enter in the username (likely "Administrator") and password you set for the instance earlier.
 ![Step4-6.png](../img/win-guide-new/Linux-Windows-RDP-Method/Step4-6.png)
 7. Select `Save and Connect`.
 ![Step4-7.png](../img/win-guide-new/Linux-Windows-RDP-Method/Step4-7.png)
 8. When prompted to accept the server's certificate, select `Yes`.
 ![Step4-8.png](../img/win-guide-new/Linux-Windows-RDP-Method/Step4-8.png)
 9. Verify the authentication credentials, then select `OK`.
-![Step4-9.png](../img/win-guide-new/Linux-Windows-RDP-Method/Step4-9.png)
+![Step4-9.png](../img/win-guide-new/Linux-Windows-RDP-Method/Stzep4-9.png)
 10. You should now be logged in to the windows instance and be able to navigate as you would any windows device.
 
+
+
 #### Connecting to your Windows instance from a mac device ####
-UUWork In Progress**
+For connecting to a Windows intance with RDP from MacOS, we will use the windows app.
+See [here](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12) for more information.
+
+1. Open the Windows App.
+2. Press the `+` botton in the top right color and then select `Add PC`.
+![Step5-1.png](../img/win-guide-new/Mac-Windows-RDP/Step5-1.png)
+3. In the `PC name` field enter the IP address of your instance and in the `Friendly name` enter what you would like to name the connection to the instance.
+![Step5-2.png](../img/win-guide-new/Mac-Windows-RDP/Step5-2.png)
+4. Select `Add` to save the connection.
+![Step5-3.png](../img/win-guide-new/Mac-Windows-RDP/Step5-3.png)
+5. Select the new connection with the friendly name you entered previously.
+![Step5-4.png](../img/win-guide-new/Mac-Windows-RDP/Step5-4.png)
+6. In the `Username` and `Password` field enter in the username (likely "Administrator") and password you set for the instance earlier, and then select `Continue`.
+![Step5-5.png](../img/win-guide-new/Mac-Windows-RDP/Step5-5.png)
+7. When prompted to accept the server's certificate, select `Continue`. 
+![Step5-6.png](../img/win-guide-new/Mac-Windows-RDP/Step5-6.png)
+8. You should now be logged in to the windows instance and be able to navigate as you would any windows device.
 
 
-
-
-
-
-### Step 3: Connecting to the instance ###
-1. Open your remote desktop client
-    * Windows Clients: Open Start Menu > type in "Remote Desktop Connection"
-    * MacOS Clients: [Windows App](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
-    * Linux Clients: [Remmina](https://remmina.org/)
-2. Enter the IP address of your Instance and press `Connect` (You can find this in Compute > Instances)
-
-![Instance page](../img/win-guide/rdp.png)
-
-3. Enter the credentials for the Instance and select OK
-
-![Instance page](../img/win-guide/rdp2.png)
-
-4. You will be successfully connected to the Instance!
-
-![Instance page](../img/win-guide/rdp_final.png)
 
