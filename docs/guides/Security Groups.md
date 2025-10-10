@@ -1,4 +1,4 @@
-# Securtiy Groups Guide
+# Security Groups Guide
 
 This guide provides a step by step walkthrough of how to get started utilizing security groups in OpenStacks
 
