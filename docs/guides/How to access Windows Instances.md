@@ -11,6 +11,8 @@ There are 2 main ways to get access and control a Windows Instance on Openstack.
 ## Preparation: Recover your Windows Instance Password ##
 For some windows instance images, you will need to retrieve the password so you can set a new administrator password. You will only be able to retrive the password if the instance was created with an SSH key and you have the private key.
 
+??? warning "The key needs to be an ssh-rsa key"
+
 - Step 1: Access intance (use images from repo)
     1. On the left pane, choose `Compute` and then `Instances`. 
     ![Step2-1](../img/win-guide-new/Recover-Windows-Instance-Password/Step2-1.png)
