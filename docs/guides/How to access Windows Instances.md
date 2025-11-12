@@ -9,20 +9,53 @@ There are 2 main ways to get access and control a Windows Instance on Openstack.
 
 
 ## Preparation: Recover your Windows Instance Password ##
-For some windows instance images, you will need to retrieve the password so you can set a new administrator password. If you already have an instance created and going with an SSH key, you can skip Step 1.  
+For some windows instance images, you will need to retrieve the password so you can set a new administrator password. You will only be able to retrive the password if the instance was created with an SSH key and you have the private key.
 
-- Step 1: Create instance with an SSH key (use images from repo)
+- Step 1: Access intance (use images from repo)
     1. On the left pane, choose `Compute` and then `Instances`. 
     ![Step2-1](../img/win-guide-new/Recover-Windows-Instance-Password/Step2-1.png)
-    2. Locate the instance you want to access the console of, and click on its name.
+    2. Locate the instance you want to retrive the password from
     ![Step2-2](../img/win-guide-new/Recover-Windows-Instance-Password/Step2-2.png)
-    3. Select the `Console` tab under the instance name. 
+    3. Click on the downwards arrow under the action column of you instance and click on "Retrive Password"
     ![Step2-3.png](../img/win-guide-new/Recover-Windows-Instance-Password/Step2-3.png)
-    4. Send a ctrl+alt+delete to the server by pressing the `Send CtrlAltDelete` button in the upper right hand corner. 
+    4. Now you will upload your private key from the SSH key pair utilized to create the instance. (You can also copy the key into the text box)
     ![Step2-4.png](../img/win-guide-new/Recover-Windows-Instance-Password/Step2-4.png)
-    5. Log into the instance. If this is your first time, it may ask you to change the password. If it asks you for the pervious password, enter the password you retrieved earlier, then enter in the password you would like, make sure to note it down.
+    5. Click on "Decrypt Password" and you should see the password.
     ![Step2-5.png](../img/win-guide-new/Recover-Windows-Instance-Password/Step2-5.png)
 
+## Setting a new password ##
+There are 2 different ways to set a password on your windows instance. For some instances you will be asked to set a new password and for others you will need to retrieve the password first. 
+
+??? info "Windows instances: New password automatically"
+    - Windows 2025  
+    - Windows 2022  
+    - Windows 2019  
+    - Windows 2012  
+    - Windows 2008  
+
+??? info "Windows instances: Retrieval needed"
+    - Windows 11  
+    - Windows 10  
+    - Windows 8.1  
+    - Windows 7  
+
+### New password automatically: ###
+Head over to the console and send a ctrl+alt+delete to the server by pressing the Send CtrlAltDelete button in the upper right hand corner.The Console will receive you with a message “The user's password must be changed before signing in”.
+
+1. Click on OK
+    ![winAuto-Infra](../img/win-guide-new/Setting-New-Password/winAuto-Infra.png)
+2. Set your new password and you will be done!
+    ![winAuto-Infra2](../img/win-guide-new/Setting-New-Password/winAuto-Infra2.png)
+
+### Retrieval needed: Please look at the retrieval guide at “Recover your Windows Instance Password ###
+Once you have retrieved your password you may RDP into your virtual machine.
+
+1. You can go to Settings -> Change Password and then Click on Change
+    ![winRtrv-Infra1](../img/win-guide-new/Setting-New-Password/winRtrv-Infra1.png)
+2. You may enter the retrieved password
+    ![winRtrv-Infra2](../img/win-guide-new/Setting-New-Password/winRtrv-Infra2.png)
+3. Finally set your new password and don't forget to use it next time you sign in!
+    ![winRtrv-Infra3](../img/win-guide-new/Setting-New-Password/winRtrv-Infra3.png)
 
 
 ## Method 1: Connect Using the Openstack Console (Must be used for initial Windows Setup) ##
