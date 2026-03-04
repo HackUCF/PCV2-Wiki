@@ -1,7 +1,7 @@
 [project]
 name = "pcv2-wiki"
 version = "0.1.0"
-description = "Add your description here"
+description = "Documentation site and wiki for the PCv2 project"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
