@@ -17,7 +17,12 @@ Before contributing, make sure you have the following:
 ### Installing uv
 
 ```sh
-curl -LsSf https://astral.sh/uv/install.sh | sh
+# Recommended: follow the official installation instructions:
+# https://docs.astral.sh/uv/getting-started/installation/
+
+# Example (macOS / Linux):
+curl -LsSf https://astral.sh/uv/install.sh -o uv-install.sh
+sh uv-install.sh
 ```
 
 ## Steps to Contribute
