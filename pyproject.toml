@@ -1,0 +1,11 @@
+[project]
+name = "pcv2-wiki"
+version = "0.1.0"
+description = "Documentation site and wiki for the PCv2 project"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "mkdocs>=1.6.1",
+    "mkdocs-glightbox>=0.5.2",
+    "mkdocs-material>=9.7.4",
+]

@@ -1,52 +1,62 @@
 # Welcome to Hack@UCF Private Cloud Wiki
+
 Anyone is welcome to contribute guides, documentation, video, etc.
 
-[MKDocs Docs](https://www.mkdocs.org/)
+[MkDocs Docs](https://www.mkdocs.org/) | [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
 
-[MKDocs Material](https://squidfunk.github.io/mkdocs-material/)
+# How to Contribute
 
-# How to Contribute 
-## I had ChatGPT write this so blame them 
 ## Prerequisites
 
 Before contributing, make sure you have the following:
 
 - **Git**: Installed on your local machine.
-- **Python**: Version 3.6 or higher.
-- **MkDocs**: Installed via pip (`pip install mkdocs`).
+- **[uv](https://docs.astral.sh/uv/)**: The Python package manager used by this project.
 - **Text Editor**: Any text editor of your choice (e.g., VS Code, Sublime Text).
+
+### Installing uv
+
+```sh
+# Recommended: follow the official installation instructions:
+# https://docs.astral.sh/uv/getting-started/installation/
+
+# Example (macOS / Linux):
+curl -LsSf https://astral.sh/uv/install.sh -o uv-install.sh
+sh uv-install.sh
+```
 
 ## Steps to Contribute
 
 ### 1. Fork the Repository
 
-- Make a fork of this repo
-- Click the "Fork" button to create your own copy of the repository.
+- Make a fork of this repo by clicking the "Fork" button on GitHub to create your own copy.
 
 ### 2. Clone the Repository
 
-- Clone your forked repository to your local machine using Git:
+- Clone your forked repository to your local machine:
 
-  ```bash
-  git clone https://github.com/your-username/repository-name.git
-  cd repository-name
-  ```
+```sh
+git clone https://github.com/your-username/pcv2-wiki.git
+cd pcv2-wiki
+```
 
 ### 3. Create a New Branch
 
 - Create a new branch to work on your changes:
 
-  ```bash
-  git checkout -b your-branch-name
-  ```
+```sh
+git checkout -b your-branch-name
+```
 
 ### 4. Install Dependencies
 
-- Install the required dependencies by running:
+- Install the required dependencies using `uv`:
 
-  ```bash
-  pip install -r requirements.txt
-  ```
+```sh
+uv sync
+```
+
+This will automatically create a virtual environment and install all dependencies from `uv.lock`.
 
 ### 5. Make Your Changes
 
@@ -58,9 +68,9 @@ Before contributing, make sure you have the following:
 
 - Run the MkDocs development server to preview your changes locally:
 
-  ```bash
-  mkdocs serve
-  ```
+```sh
+uv run mkdocs serve
+```
 
 - Open your browser and go to `http://localhost:8000` to see your changes in real-time.
 
@@ -68,18 +78,18 @@ Before contributing, make sure you have the following:
 
 - After making sure everything looks good, commit your changes:
 
-  ```bash
-  git add .
-  git commit -m "Description of the changes you made"
-  ```
+```sh
+git add .
+git commit -m "Description of the changes you made"
+```
 
 ### 8. Push to GitHub
 
 - Push your changes to your forked repository:
 
-  ```bash
-  git push origin your-branch-name
-  ```
+```sh
+git push origin your-branch-name
+```
 
 ### 9. Create a Pull Request
 
@@ -93,4 +103,4 @@ Before contributing, make sure you have the following:
 
 ### 11. Done!
 
-- Once your pull request is approved and merged, your changes will be part of the MkDocs website.
+- Once your pull request is approved and merged, your changes will be part of the wiki!
