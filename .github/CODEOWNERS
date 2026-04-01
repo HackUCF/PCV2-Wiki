@@ -1,0 +1,6 @@
+# CODEOWNERS file for HackUCF PCV2-Wiki
+# This file defines the default owners for all files in the repository
+# For more information, see: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for all files
+* @HackUCF/infra-admin
