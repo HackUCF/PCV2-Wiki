@@ -37,6 +37,7 @@ If you're new to HackUCF Private Cloud, we recommend starting with our comprehen
 
 ### Networking & Infrastructure
 - **[How to use Virtual Networks](./guides/How to use Virtual Networks.md)** - Configure network topologies and routing
+- **[How to Isolate an Instance](./guides/How to Isolate an Instance.md)** - Create a network-isolated instance
 - **[Linux Cyberlab Secure](./guides/Linux Cyberlab Secure.md)** - Secure Linux configurations for cybersecurity labs
 
 ### Advanced Topics
