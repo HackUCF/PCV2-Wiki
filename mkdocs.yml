@@ -54,6 +54,7 @@ nav:
       - "Linux Cyberlab Secure": "guides/Linux Cyberlab Secure.md"
       - "How to Unshelve Instance": "guides/How to Unshelve an Instance.md"
       - "How to use Virtual Networks": "guides/How to use Virtual Networks.md"
+      - "How to Isolate an Instance": "guides/How to Isolate an Instance.md"
   - "Acceptable Use Policy": "misc/aup.md"
   - "Infra Total Spec": "misc/Specs.md"
 #extra_css:
