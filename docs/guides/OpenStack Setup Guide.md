@@ -1,35 +1,26 @@
 # OpenStack Infrastructure Setup Guide
 
-## Step 1: Download OpenVPN Profile
+## Step 1: Install NetBird
 
-1. Go to [join.hackucf.org](https://join.hackucf.org).
-2. Click on "My Membership" and login with your Discord credentials.
-3. Download the OpenVPN profile provided and save it for later use.
+1. Go-to https://vpn.hackucf.cloud/
+![alt text](<../img/netbirdSignin.png>)
 
-## Step 2: Install OpenVPN Client
+2. Select “Continue with Hack@UCF SSO”
 
-1. Go to [https://openvpn.net/client/](https://openvpn.net/client/).
-2. Download the appropriate version of OpenVPN for your operating system and install it.
-   
-### For Windows:
-   
-   - Press the Windows key and search for OpenVPN.
-   - Run OpenVPN.
-   ![alt text](<../img/Run Openvpn.png>)
-   - On the bottom right of your screen, open the overflow icon menu.
-   - Right-click on the OpenVPN icon and select "Import Profile".
-   ![alt text](<../img/Import profile.png>)
-   - Click on the "UPLOAD FILE" tab.
-   - Press "Browse" and navigate to where you downloaded the HackUCF OpenVPN profile.
-   - Select the profile and press "Open".
-   - Press "Connect".
-   - In the future, navigate to the OpenVPN client and select the on switch labeled "vpn.hackucf.org".
-   
-### For Windows 10 Users:
-   
-   - If you don't already have the new Windows Terminal, download it from [https://aka.ms/terminal](https://aka.ms/terminal).
+3. Input the credentials the “**HackUCF Bot**” messaged you on discord *(from when you paid your dues)*. 
+![alt text](<../img/SSOLogin.png>)
 
-## Step 3: Create SSH Key
+4. After signing in, you will be directed to https://vpn.hackucf.cloud/peers.
+![alt text](<../img/netbirdInstall.png>)
+Please follow the on-screen instructions for whichever device you plan to use to access the Hack@UCF Infrastructure.
+
+Note: After you install the NetBird client, if you *don't* see the management URL field under the “*Advanced*” tab, go-to the “**Profiles**” tab, edit the default profile, select “**Self-Hosted**”, and input the “https://vpn.hackucf.cloud” URL. 
+
+5. Press connect! 
+![alt text](<../img/netbirdConnected.png>)
+You should now be able to reach the Hack@UCF Infrastructure. 
+
+## Step 2: Create SSH Key
 
 1. Open a terminal.
 2. Run `ssh-keygen -t rsa`.
@@ -38,7 +29,7 @@
 5. Press Enter again to confirm.
 ![alt text](<../img/ssh KeyGen.png>)
 
-## Step 4: Login With Keycloak
+## Step 3: Login With Keycloak
 0. Navigate to [https://horizon.hackucf.cloud](https://horizon.hackucf.cloud)
 1. Select login with Hack@UCF SSO
 ![alt text](<../img/OpenStack-Setup-Guide/Login-with-SSO.png>)
@@ -48,7 +39,7 @@
 5. Change Password
 6. Confirm Email
 
-## Step 5: Horizon.hackucf.cloud Configuration
+## Step 4: Horizon.hackucf.cloud Configuration
 
 1. In OpenStack, navigate to "Compute" -> "Key Pairs".
 2. Click "Import Public Key".
