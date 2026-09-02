@@ -11,6 +11,7 @@ NetBird is the VPN used to reach the Hack@UCF Infrastructure. You must be connec
 2. Select “Continue with Hack@UCF SSO”
 
 3. Input the credentials the “**HackUCF Bot**” messaged you on discord *(from when you paid your dues)*.
+
 ![alt text](<../img/SSOLogin.png>)
 
 ## Step 2: Install the NetBird Client
@@ -21,6 +22,7 @@ NetBird is the VPN used to reach the Hack@UCF Infrastructure. You must be connec
 Please follow the on-screen instructions for whichever device you plan to use to access the Hack@UCF Infrastructure.
 
 Note: After you install the NetBird client, if you *don't* see the management URL field under the “*Advanced*” tab, go-to the “**Profiles**” tab, edit the default profile, select “**Self-Hosted**”, and input the “https://vpn.hackucf.cloud” URL.
+
 ![alt text](<../img/netbirdConfigURL.png>)
 
 ### Linux
