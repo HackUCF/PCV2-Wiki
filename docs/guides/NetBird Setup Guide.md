@@ -45,7 +45,7 @@ This connects you as well, so you can skip Step 3.
 
 1. Press connect!
 
-![alt text](<../img/netbirdConnected.png>)
+![alt text](<../img/netbirdConnected1.png>)
 
 You should now be able to reach the Hack@UCF Infrastructure.
 
