@@ -59,8 +59,8 @@ nav:
   - "Acceptable Use Policy": "misc/aup.md"
   - "Infra Total Spec": "misc/Specs.md"
   - "OpenVPN Setup (Deprecated)": "misc/OpenVPN Setup.md"
-#extra_css:
-#  - stylesheets/extra.css
+extra_css:
+  - stylesheets/extra.css
 plugins:
   - glightbox
 markdown_extensions:
