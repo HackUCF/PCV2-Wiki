@@ -45,6 +45,8 @@ nav:
   - "User Guides":
       - "Overview of OpenStack": "guides/Overview of OpenStack GUI.md"
       - "OpenStack Setup Guide": "guides/OpenStack Setup Guide.md"
+      - "NetBird Setup Guide": "guides/NetBird Setup Guide.md"
+      - "SSH Key Setup Guide": "guides/SSH Key Setup Guide.md"
       - "Security Groups Guide": "guides/Security Groups.md"
       - "How to Launch an Instance": "guides/How to Launch an Instance.md"
       - "Migration Guide": "guides/Migrate Instance.md"
@@ -56,6 +58,7 @@ nav:
       - "How to use Virtual Networks": "guides/How to use Virtual Networks.md"
   - "Acceptable Use Policy": "misc/aup.md"
   - "Infra Total Spec": "misc/Specs.md"
+  - "OpenVPN Setup (Deprecated)": "misc/OpenVPN Setup.md"
 #extra_css:
 #  - stylesheets/extra.css
 plugins:

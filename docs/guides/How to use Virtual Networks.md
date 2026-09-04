@@ -24,7 +24,7 @@ In this guide, you'll learn how to:
 
 ## Prerequisites
 
-Be sure to follow the instructions in the [OpenStack Setup Guide](../OpenStack Setup Guide) before proceeding with this guide.
+Be sure to follow the instructions in the [OpenStack Setup Guide](./OpenStack Setup Guide.md) before proceeding with this guide.
 
 ## Creating a Virtual Network
 

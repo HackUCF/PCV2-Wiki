@@ -28,6 +28,8 @@ If you're new to HackUCF Private Cloud, we recommend starting with our comprehen
 
 ### Essential Setup
 - **[OpenStack Setup Guide](./guides/OpenStack Setup Guide.md)** - Complete initial setup and configuration
+- **[NetBird Setup Guide](./guides/NetBird Setup Guide.md)** - Connect to the VPN that fronts the infrastructure
+- **[SSH Key Setup Guide](./guides/SSH Key Setup Guide.md)** - Generate an SSH key and import it into OpenStack
 - **[Security Groups Guide](./guides/Security Groups.md)** - Configure network security and firewall rules
 
 ### Instance Management
