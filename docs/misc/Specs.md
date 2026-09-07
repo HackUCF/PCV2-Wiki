@@ -2,9 +2,9 @@
 
 
 ## Total Specs
-- Total CPU Cores: 412
-- Total RAM: 2670.8 GB
-- Total Storage: 252.16 TB
+- Total CPU Cores: 620
+- Total RAM: 3927.8 GB
+- Total Storage: 247.83 TB
 
 ## Networking
 We have two enterprise-grade 10Gbps Ethernet switches.
@@ -146,12 +146,25 @@ Both switches upstream to our Edge Router via 2x10Gbps Ethernet ports.
 - 503GB RAM
 
 
-#### Compute 2
-- 2x AMD EPYC 7451 24-Core Processor
-- BIOS AMD EPYC 7451 24-Core Processor                 Unknown CPU @ 2.3GHz
-- 1x 1.5T INTEL SSDPE2KE016T8
-- 1x 1.5T INTEL SSDPE2KE016T8
-- 1x 1.5T INTEL SSDPE2KE016T8
-- 1x 1.5T INTEL SSDPE2KE016T8
-- 1x 119.2G SATADOM-SL 3ME3
-- 251GB RAM
+#### Compute 3a
+- 2x AMD EPYC 9335 32-Core Processor
+- 1x 447.1G Micron_7450_MTFDKBA480TFR
+- 377GB RAM
+
+
+#### Compute 3b
+- 2x AMD EPYC 9335 32-Core Processor
+- 1x 447.1G Micron_7450_MTFDKBA480TFR
+- 377GB RAM
+
+
+#### Compute 3c
+- 2x AMD EPYC 9335 32-Core Processor
+- 1x 447.1G Micron_7450_MTFDKBA480TFR
+- 377GB RAM
+
+
+#### Compute 3d
+- 2x AMD EPYC 9335 32-Core Processor
+- 1x 447.1G Micron_7450_MTFDKBA480TFR
+- 377GB RAM
