@@ -2,7 +2,7 @@
 
 This guide walks you through generating an SSH key pair and importing the public key into OpenStack so it can be injected into the instances you launch.
 
-Before you start, make sure you are connected to the VPN — see the [NetBird Setup Guide](./NetBird Setup Guide.md).
+Before you start, make sure you are connected to NetBird; see the [NetBird Setup Guide](./NetBird Setup Guide.md).
 
 ## Step 1: Create SSH Key
 

@@ -1,20 +1,23 @@
 # Acceptable Use Policy (AUP) for Hack@UCF Private Cloud Platform
 
-This Acceptable Use Policy ("Agreement") is entered into between the user ("User") and the Collegiate Cyber Defense Club ("Hack@UCF"). By accessing or using the Hack@UCF Private Cloud Platform ("Platform"), the User agrees to abide by the terms and conditions outlined in this Agreement.
+This Acceptable Use Policy ("Agreement") is entered into between the user ("User") and the Collegiate Cyber Defense Club ("Hack@UCF"). By accessing or using the Hack@UCF Private Cloud Platform ("Platform"), the User agrees to abide by the terms and conditions outlined in this Agreement. This Agreement applies whenever the User is connected to the Cyberlab wireless networks, whether or not they are using the private cloud itself.
 
 ## 1. Terms
 - UCF - University of Central Florida
 - Hack@UCF - Collegiate Cyber Defense Club
+- Platform - The Hack@UCF Private Cloud together with the infrastructure that supports it, including the Cyberlab Networks and the VPN. 
 - IP - IP address, or Internet Protocol address, a unique numerical label assigned to each device connected to a computer network
 - Machines - Refers to physical computers or virtualized computers connected to the network.
 - TOR - The Onion Router (TOR) network.
-- VPN - Virtual private network, in this context the protocol (WireGuard or OpenVPN) used to connect to the Platform remotely.
+- Cyberlab Networks - The Hack@UCF wireless networks in the Cyberlab, including the `Cyberlab` and `Cyberlab Secure` SSIDs. They are part of the Platform, are run by the Platform administrators, and exist to make connecting to the private cloud easier from inside the Cyberlab - they are the in-person alternative to the VPN.
+- VPN - Virtual private network, in this context the tunnel (NetBird, OpenVPN, or WireGuard) used to connect to the Platform remotely. It provides access to the Platform only and it does not carry the User's other internet traffic.
 - Hack@UCF’s Execs - Elected members of the Executive Board of Collegiate Cyber Defense Club in accordance with the Constitution.
 - Infrastructure Director - A member of Hack@UCF appointed by the Executives to administer the Platform.
 - Platform administrators - Members of Hack@UCF appointed by the Infrastructure Director to administer the Platform.
 
 ## 2. Purpose
 - The purpose of the Hack@UCF private cloud is to provide a platform for members to experiment and learn 
+- The Cyberlab Networks and the VPN exist to get members onto that platform, from the Cyberlab and from off-site respectively. They are part of the same infrastructure and are covered by the same rules.
 - This AUP lays out the ground rules for using this platform
 
 ## 3. Ethical Use
@@ -27,7 +30,7 @@ This Acceptable Use Policy ("Agreement") is entered into between the user ("User
 Resources](https://policies.ucf.edu/documents/4-002.pdf)
 
 
-> A.1. Users must comply with all applicable conduct codes and rules, laws, andregulations governing the use of computer and telecommunications resources. Examples include laws regarding libel, privacy, copyright, trademark, obscenity, and child pornography; the Florida Computer Crimes Act; the Electronic Communications Privacy Act; and the Computer Fraud and Abuse Act.
+> A.1. Users must comply with all applicable conduct codes and rules, laws, and regulations governing the use of computer and telecommunications resources. Examples include laws regarding libel, privacy, copyright, trademark, obscenity, and child pornography; the Florida Computer Crimes Act; the Electronic Communications Privacy Act; and the Computer Fraud and Abuse Act.
 
 > B.3. The computing and telecommunications resources of the university must not be used for unapproved commercial purposes, or for personal financial gain, without express written approval from the provost and executive vice president or his or her designee.
 
@@ -50,9 +53,11 @@ Resources](https://policies.ucf.edu/documents/4-002.pdf)
 - Platform administrators, Hack@UCF executives, authorized UCF personnel, and law enforcement may access any data stored on the Platform.
 
 ## 10. Network Restrictions
+These restrictions govern activity on and originating from the Platform, which includes any device while it is connected to the Cyberlab Networks.
+
 - Users are not allowed to set up TOR relay nodes, engage in torrent seeding or other public relay systems.
 - An exemption to the above restriction may be requested from platform administrators for educational or research purposes. 
-- Users may not access any part of the UCF network.
+- Users may not use the Platform to access any part of the UCF network.
 - Users may not access any machines, virtual machines, networking equipment or any other components of the private cloud without explicit permission
 
 ## 11. Public IP Addresses
@@ -65,14 +70,14 @@ Resources](https://policies.ucf.edu/documents/4-002.pdf)
 - User accounts are disabled and removed at the end of each academic year unless specified otherwise (Fall to Spring).
 
 ## 14. Logging
-- All activities on the Platform are logged for security and accountability purposes.
+- All activities on the Platform may be logged for security and accountability purposes.
 
 ## 15. Cryptocurrency
 - Users are prohibited from engaging in cryptocurrency-related activities on the Platform.
 - An exemption to the above restriction may be requested from platform administrators for educational or research purposes. 
 
 ## 16. Credential Sharing
-- Users are prohibited from sharing login credentials, including VPN access, with any other persons
+- Users are prohibited from sharing login credentials, including VPN and Cyberlab Networks access, with any other persons
 
 ## 17. Other Prohibited Activity
 - The Platform Administrators or Hack@UCF’s Execs may at any time request that you temporarily or permanently cease certain activities on the Platform, these requests must be complied with. 
@@ -83,4 +88,4 @@ Resources](https://policies.ucf.edu/documents/4-002.pdf)
 - The User shall refrain from attempting to exploit any identified Security Issues beyond what is necessary to validate and demonstrate the vulnerability. Unauthorized access to data, systems, or networks is strictly prohibited.
 - The User agrees to provide detailed information regarding the identified Security Issue, including a clear description, steps to reproduce, and any supporting evidence, to facilitate a comprehensive understanding of the potential vulnerability.
 
-**By accessing and using the Hack@UCF Private Cloud Platform, the User acknowledges and agrees to comply with the terms and conditions set forth in this AUP. Violation of these terms may result in the suspension or termination of access to the Platform. Hack@UCF reserves the right to update or modify this AUP at any time. Users are encouraged to review this Agreement regularly for any changes.**
+**By accessing and using the Hack@UCF Private Cloud Platform, including the Cyberlab Networks and the VPN, the User acknowledges and agrees to comply with the terms and conditions set forth in this AUP. Violation of these terms may result in the suspension or termination of access to the Platform. Hack@UCF reserves the right to update or modify this AUP at any time. Users are encouraged to review this Agreement regularly for any changes.**
