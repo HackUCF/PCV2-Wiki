@@ -4,7 +4,7 @@ New here? These are the two things you need to do before you can launch anything
 
 ## Step 1: Set Up NetBird
 
-NetBird is the VPN that fronts the Hack@UCF Infrastructure. You must be connected to it before you can reach [horizon.hackucf.cloud](https://horizon.hackucf.cloud) or SSH into any instance.
+NetBird is the private network that fronts the Hack@UCF Infrastructure. You must be connected to it before you can reach [horizon.hackucf.cloud](https://horizon.hackucf.cloud) or SSH into any instance.
 
 - Follow the [NetBird Setup Guide](./NetBird Setup Guide.md), then come back here for Step 2.
 

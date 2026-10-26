@@ -1,6 +1,6 @@
 # NetBird Setup Guide
 
-NetBird is the VPN used to reach the Hack@UCF Infrastructure. You must be connected to NetBird before you can access [horizon.hackucf.cloud](https://horizon.hackucf.cloud) or SSH into any instance.
+NetBird is how you reach the Hack@UCF Infrastructure. You must be connected to NetBird before you can access [horizon.hackucf.cloud](https://horizon.hackucf.cloud) or SSH into any instance.
 
 ## Step 1: Sign in to NetBird
 
@@ -50,6 +50,11 @@ This connects you as well, so you can skip Step 3.
 ![alt text](<../img/netbirdConnected1.png>)
 
 You should now be able to reach the Hack@UCF Infrastructure.
+
+!!! question "Is this like Mullvad VPN (NordVPN, ProtonVPN et al.) ?"
+    A VPN is a tunnel for your traffic. Some tunnels are configured to carry *all* of it to another location, that
+    is what Mullvad and NordVPN do (full-tunnel). Our Netbird VPN is split-tunnel; only carrying traffic bound for the Private Cloud;
+    everything else continues along its normal route. It also does not grant access to UCF systems, only Hack@UCF controlled ones.
 
 # Next Steps
 
