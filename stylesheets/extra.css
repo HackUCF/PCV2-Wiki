@@ -1,0 +1,8 @@
+/* Double-clicking inline code selects the whole snippet instead of a single
+   word, so commands, paths and passwords can be copied in one gesture.
+   Fenced code blocks (pre > code) keep normal selection since they already
+   have a copy button and are often read line by line. */
+.md-typeset :not(pre) > code {
+  -webkit-user-select: all;
+  user-select: all;
+}
